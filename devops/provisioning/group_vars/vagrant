@@ -1,0 +1,12 @@
+---
+
+php_opcache_enable: 0
+dev_env: true
+mysql_databases:
+  - name: vagrant
+
+mysql_users:
+  - name: vagrant
+    password: vagrant    
+    priv: 'vagrant.*:ALL'
+
